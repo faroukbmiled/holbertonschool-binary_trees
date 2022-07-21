@@ -12,7 +12,7 @@ binary_tree_t *right_node;
 	if (parent == NULL)
 		return (NULL);
 
-    right_node = binary_tree_node(parent, value);
+right_node = binary_tree_node(parent, value);
 	if (parent->right != NULL)
 	{
 		parent->right->parent = right_node;
